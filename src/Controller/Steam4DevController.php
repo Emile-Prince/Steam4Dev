@@ -36,4 +36,11 @@ class Steam4DevController extends AbstractController
     public function service(){
         return $this->render('steam4_dev/service.html.twig');
     }
+
+    /**
+     * @Route("Blog",name="Blog")
+     */
+    public function Blog(){
+        return $this->render('steam4_dev/blog-details.html.twig')
+    }
 }
