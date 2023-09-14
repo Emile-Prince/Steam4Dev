@@ -1,5 +1,6 @@
 <?php
 
+// 14/09/2023 - validé | Plus aucune modif à faire
     // Only process POST reqeusts.
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Get the form fields and remove whitespace.
