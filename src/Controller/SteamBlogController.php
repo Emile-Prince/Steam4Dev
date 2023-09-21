@@ -64,5 +64,15 @@ class SteamBlogController extends AbstractController
     public function AddComment()
     {
         
-    } 
+    }
+
+    /**
+     * @Route("/", name="Blog)
+     * Params : id_blog, txt_comment
+     */
+    public function DeleteComment()
+    {
+        //Passer l'id puis renvoyer le detail du blog
+        return $this->render('steam4_dev/blog-details.html.twig')
+    }  
 }
